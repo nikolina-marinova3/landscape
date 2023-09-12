@@ -418,10 +418,9 @@
                <div class="row">
                    
                    
-                   
-                   
-                   
-<form name="contact" method="POST" data-netlify="true">
+    
+<!--
+   <form name="contact" method="POST" data-netlify="true">
   <p>
     <label>Your Name: <input type="text" name="name" /></label>
   </p>
@@ -429,12 +428,10 @@
     <label>Your Email: <input type="email" name="email" /></label>
   </p>
   <p>
-<!--
     <label>Your Role: <select name="role[]" multiple>
       <option value="leader">Leader</option>
       <option value="follower">Follower</option>
     </select></label>
--->
   </p>
   <p>
     <label>Message: <textarea name="message"></textarea></label>
@@ -442,9 +439,43 @@
   <p>
     <button type="submit">Send</button>
   </p>
+</form>                
+-->
+                   
+                               
+                   
+<form name="contact" method="POST" data-netlify="true" class="contact-quote">
+  <div class="quote">
+    <label>Your Name: <input type="text" name="name" /></label>
+  </div>
+  <div class="quote">
+    <label>Your Email: <input type="email" name="email" /></label>
+  </div>
+<!--
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+-->
+  <div class="quote">
+    <label>Message: <textarea name="message"></textarea></label>
+  </div>
+    <p>Our Company LTD will contact you within 24h. Thank you for submitting your request.</p>
+    <div class="quote">
+        <div class="fr">
+            <label>&nbsp;</label>
+        </div>
+        <div class="fr bt">
+            <button type="submit" class="next">Get a Free Quote!</button>
+        </div>
+    </div>                    
 </form>
 
-                                        
+                     
+                   
+<!--
                    
                     <form id="form" method="POST" data-netlify="true" class="contact-quote">
                     <div class="quote">
@@ -485,6 +516,7 @@
                         </div>
                     </div>
                 </form>
+-->
            
                 
                 
